@@ -41,7 +41,7 @@ function DisplayTable() {
     // Append table to container
     var tableContainer = document.getElementById('tableContainer');
 
-    //tableContainer.innerHTML = '';
+    tableContainer.innerHTML = '';
     
     tableContainer.appendChild(table);
 }
